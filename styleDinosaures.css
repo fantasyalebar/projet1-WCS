@@ -16,9 +16,6 @@ body {
     clear:both;
 }
 
-#top-nav {
-    display:none;
-}
 
 #side-nav {
     position:fixed;
@@ -45,6 +42,10 @@ body {
 #side-nav ul a {
     color:white;
     text-decoration: none;
+}
+
+h2 {
+    text-align: center;
 }
 
 #btn-plus {
