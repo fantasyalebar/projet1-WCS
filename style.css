@@ -1,4 +1,3 @@
-/* @import permet d'importer une police depuis internet (ici depuis Google fonts */
 @import url('https://fonts.googleapis.com/css?family=Aldrich&display=swap');
 
 
@@ -121,7 +120,6 @@ footer a {
 }
 
 
-/* media querry pour modifier l'affichage quand la taille de l'écran dépasse 750px */
 @media screen and (min-width:750px) {
     #top-nav {
         display:block;
