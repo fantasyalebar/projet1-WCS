@@ -1,8 +1,9 @@
+/* @import permet d'importer une police depuis internet (ici depuis Google fonts */
 @import url('https://fonts.googleapis.com/css?family=Aldrich&display=swap');
 
 
 body {
-    margin:0 auto;
+    margin:0 auto; 
 }
 
 #accueil {
@@ -47,7 +48,6 @@ body {
     text-decoration: none;
 }
 
-
 #btn-plus {
     font-size:24px;
     position:fixed;
@@ -69,6 +69,7 @@ h1, h2  {
     width: 90%;
     margin-left:5%;
 }
+
 #presentation img {
     float:left;
     width:25%;
@@ -119,32 +120,34 @@ footer a {
     color:white;
 }
 
+
+/* media querry pour modifier l'affichage quand la taille de l'écran dépasse 750px */
 @media screen and (min-width:750px) {
     #top-nav {
         display:block;
         border-bottom:1px solid white;
         background-color: black;
-       }
+    }
        
-       #top-nav ul{
-           display:flex;
-           text-align: center;
-           margin: 0;
-           padding: 20px 0px;
-       }
+    #top-nav ul{
+        display:flex;
+        text-align: center;
+        margin: 0;
+        padding: 20px 0px;
+    }
        
-       #top-nav li {
-           display:inline-block;
-           width:100px;
-           justify-content:space-between;
-       }
+    #top-nav li {
+        display:inline-block;
+        width:100px;
+        justify-content:space-between;
+    }
        
-       #top-nav li a {
-           text-decoration: none;
-           color:white;
-       }
+    #top-nav li a {
+        text-decoration: none;
+        color:white;
+    }
 
-       #btn-plus {
-           display:none;
-       }
+    #btn-plus {
+        display:none;
+    }
 }

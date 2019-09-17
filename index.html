@@ -1,3 +1,4 @@
+<!-- Debut du html vous pouvez copier la -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -8,7 +9,7 @@
     <title>Wild-E</title>
 </head>
 <body id="accueil">
-  <nav id="top-nav">
+  <nav id="top-nav"> <!--Navbar du haut quand en mode desktop-->
       <ul>
           <li><a href="" >Présentation</a></li>
           <li><a href="" >Étape 1</a></li>
@@ -19,7 +20,7 @@
       </ul>
   </nav>
 
-  <nav id="side-nav">
+  <nav id="side-nav"><!--Navbar de gauche quand en mode mobile-->
     <ul>
         <li><a href="" >Présentation</a></li>
         <li><a href="" >Étape 1</a></li>
@@ -30,7 +31,9 @@
     </ul>
 </nav>
 
-<span id="btn-plus" onclick="shownav();">+</span>
+<span id="btn-plus" onclick="shownav();">+</span> <!-- bouton pour l'affichage de la navbar de gauche -->
+
+<!-- stop de copier ici  -->
 
   <h1>Présentation</h1>
   <div id="presentation">
@@ -45,7 +48,7 @@
 
   <div class="clear"></div>
 
-  <hr class="séparation">
+  <hr class="séparation"> <!-- la balise hr sert à faire une ligne de séparation entre deux éléments -->
 
 <h2>Les étapes de mon voyage</h2>
   <div id="etapes">
@@ -55,6 +58,7 @@
     <a href=""><img src="" alt=""></a>
   </div>
 
+  <!-- recopier à partir de la jusqu'a la fin pour le footer + le script pour la navbar du côté  -->
     <footer>
         <a href="">Lien A</a>
         <a href="">Lien B</a>
@@ -66,7 +70,7 @@
     </footer>
 
 
-    <script>
+    <script> /* script pour permettre d'afficher/masquer la navbar de gauche en cliquant sur le bouton +/-  */
       function shownav() {
         var plus = document.getElementById("btn-plus");
         var nav = document.getElementById("side-nav");
