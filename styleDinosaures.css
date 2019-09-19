@@ -6,10 +6,9 @@ body {
 }
 
 #accueil {
-    background-image: url(img/fond-galaxie.jpg);
     color:white;
-    background-size: cover;
-    background-position: center;
+    /*background-size: cover;
+    background-position: center;*/
 }
 
 .clear {
