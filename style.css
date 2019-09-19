@@ -64,6 +64,8 @@ h1, h2  {
     font-family: 'Aldrich', sans-serif;
 } 
 
+
+
 #presentation {
     position:fixed;
     width: 100%;
@@ -81,6 +83,16 @@ h1, h2  {
     margin-top: 15px;
     margin-left: 20px;
 
+}
+
+#presentation #troll-abdou {
+    position: fixed;
+    right: 0;
+    width: 15px;
+}
+
+#presentation #troll-abdou:hover {
+    width:30%;
 }
 
 #presentation h1 {
