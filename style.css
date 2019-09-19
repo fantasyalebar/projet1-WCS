@@ -4,11 +4,12 @@
 
 body {
     margin:0 auto; 
+    font-family:  "Segoe UI",Arial,sans-serif;
+    color:grey;
 }
 
 #accueil {
-    background-image: url(img/fond-galaxie.jpg);
-    color:white;
+    background-image: linear-gradient(white 60%,grey );
     background-size: cover;
     background-position: center;
 }
@@ -136,8 +137,9 @@ footer a {
     #top-nav ul{
         display:flex;
         text-align: center;
+        justify-content:center;
         margin: 0;
-        padding: 20px 0px;
+        padding: 20px 0px;  
     }
        
     #top-nav li {
