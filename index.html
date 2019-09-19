@@ -9,48 +9,51 @@
     <title>Wild-E</title>
 </head>
 <body id="accueil">
-  <nav id="top-nav"> <!--Navbar du haut quand en mode desktop-->
-      <ul>
-          <li><a href="" >Présentation</a></li>
-          <li><a href="" >Dinosaures</a></li>
-          <li><a href="" >Egypte</a></li>
-          <li><a href="" >Japon</a></li>
-          <li><a href="" >Paris</a></li>
-          <li><a href="" >Contact</a></li>
-      </ul>
-  </nav>
 
-  <nav id="side-nav"><!--Navbar de gauche quand en mode mobile-->
+
+  <!-- <h1>Présentation</h1> -->
+  <div id="presentation">
+      <img src="img/photo-profil.png" alt="ma photo">
+      <!-- <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sagittis, sem in vehicula tristique, libero turpis sollicitudin velit, eu commodo diam velit vitae justo. Aliquam erat volutpat. Ut ultrices risus et mi faucibus ultricies. Morbi ac efficitur augue, ac laoreet neque. Nulla pharetra magna eget leo blandit, vel finibus mauris aliquam. Sed hendrerit sem nec lectus venenatis, sit amet pharetra felis suscipit. Mauris sit amet purus id magna euismod efficitur. Integer ac lorem tempor, lobortis nisi ac, rutrum lectus. Sed justo mauris, pharetra non interdum nec, dapibus eu ipsum. Etiam id felis ac dui convallis posuere a et erat. Etiam id lectus rhoncus, interdum nisi vestibulum, hendrerit mauris. Cras sapien quam, cursus non felis id, fermentum finibus mauris. Praesent scelerisque egestas dui. Morbi accumsan odio molestie dui venenatis, id convallis lectus semper. Proin sed euismod ex. <br><br>
+       
+      </p> -->
+
+      <h1><span id="wild">WILD-</span><span id="e">Ʃ</span></h1>  
+  </div>
+
+  <nav id="top-nav"> <!--Navbar du haut quand en mode desktop-->
     <ul>
-        <li><a href="" >Présentation</a></li>
-        <li><a href="" >Étape 1</a></li>
-        <li><a href="" >Étape 2</a></li>
-        <li><a href="" >Étape 3</a></li>
-        <li><a href="" >Étape 4</a></li>
+        <li><a href="" >Dinosaures</a></li>
+        <li><a href="" >Egypte</a></li>
+        <li><a href="" >Japon</a></li>
+        <li><a href="" >Paris</a></li>
         <li><a href="" >Contact</a></li>
     </ul>
+</nav>
+
+<nav id="side-nav"><!--Navbar de gauche quand en mode mobile-->
+  <ul>
+      <li><a href="" >Étape 1</a></li>
+      <li><a href="" >Étape 2</a></li>
+      <li><a href="" >Étape 3</a></li>
+      <li><a href="" >Étape 4</a></li>
+      <li><a href="" >Contact</a></li>
+  </ul>
 </nav>
 
 <span id="btn-plus" onclick="shownav();">+</span> <!-- bouton pour l'affichage de la navbar de gauche -->
 
 <!-- stop de copier ici  -->
 
-  <h1>Présentation</h1>
-  <div id="presentation">
-      <img src="img/photo-profil.png" alt="ma photo">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sagittis, sem in vehicula tristique, libero turpis sollicitudin velit, eu commodo diam velit vitae justo. Aliquam erat volutpat. Ut ultrices risus et mi faucibus ultricies. Morbi ac efficitur augue, ac laoreet neque. Nulla pharetra magna eget leo blandit, vel finibus mauris aliquam. Sed hendrerit sem nec lectus venenatis, sit amet pharetra felis suscipit. Mauris sit amet purus id magna euismod efficitur. Integer ac lorem tempor, lobortis nisi ac, rutrum lectus. Sed justo mauris, pharetra non interdum nec, dapibus eu ipsum. Etiam id felis ac dui convallis posuere a et erat. Etiam id lectus rhoncus, interdum nisi vestibulum, hendrerit mauris. Cras sapien quam, cursus non felis id, fermentum finibus mauris. Praesent scelerisque egestas dui. Morbi accumsan odio molestie dui venenatis, id convallis lectus semper. Proin sed euismod ex. <br><br>
-        Nunc iaculis lobortis est vitae consectetur. Praesent eleifend augue elit. Nulla consectetur eleifend lectus, et vestibulum tellus convallis nec. Proin libero mi, mollis et quam ultrices, ultrices pellentesque purus. Integer justo dolor, semper convallis lectus ut, posuere ullamcorper ex. Aliquam sodales pretium scelerisque. Duis tincidunt convallis tempus. Etiam mauris erat, pellentesque condimentum placerat id, tincidunt pretium leo. Phasellus consectetur gravida dolor id viverra.
-         <br><br>
-        Quisque nec porttitor justo. Sed ac pellentesque sapien. Etiam mollis quis tellus ac interdum. Maecenas id pellentesque nunc. Sed rhoncus cursus orci in laoreet. Nunc non tristique risus. Fusce porttitor, mauris eu consequat tempor, eros lorem dictum est, non lacinia metus nisl sed elit. Integer cursus sem vitae massa fermentum malesuada. Maecenas egestas, massa non volutpat pellentesque, tellus turpis pharetra massa, quis interdum ex nisi ac purus. Proin eget efficitur nulla. 
-      </p>
-  </div>
-
   <div class="clear"></div>
 
-  <hr class="séparation"> <!-- la balise hr sert à faire une ligne de séparation entre deux éléments -->
+  <!-- la balise hr sert à faire une ligne de séparation entre deux éléments -->
 
-<h2>Les étapes de mon voyage</h2>
+<h2 id="titre-etapes">Les étapes de mon voyage</h2>
+
+<hr>
+
   <div id="etapes">
     <a href=""><img src="img/dinosaure1.jpg" alt="Wild-e au pays des dinosaures"></a>
     <a href=""><img src="img/dinosaure1.jpg" alt="Wild-e en Egypte antique"></a>
